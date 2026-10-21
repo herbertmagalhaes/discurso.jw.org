@@ -1,0 +1,31 @@
+SITE DE DISCURSOS PÚBLICOS — VERSÃO APERFEIÇOADA
+
+Arquivos:
+- index.html
+- app.js
+- assets/convite-modelo-base.png
+
+MELHORIAS INCLUÍDAS:
+- Cabeçalho com marca visual JW.ORG.
+- Convite inclui nome do orador e congregação na mesma linha.
+- Ajuste automático do tamanho do tema e do nome/congregação para evitar cortes.
+- Cadastro de oradores com campo para número do discurso; ao digitar um número conhecido, o tema é preenchido automaticamente.
+- A aba de discursos indica “SIM · COM ORADOR” quando o tema está associado a um orador.
+- Cadastro de temas extras, com número automático se não informado.
+- Controles para sublinhar ou retirar o sublinhado de temas individualmente.
+- Botão para retirar todos os sublinhados.
+
+IMPORTANTE SOBRE DADOS:
+- Oradores e marcações existentes continuam usando o Supabase já configurado no app.js.
+- Temas extras e preferências de sublinhado são salvos no armazenamento local deste navegador. Eles não são compartilhados automaticamente com outros aparelhos/navegadores.
+- O campo “Número do discurso” preenche o título a partir da lista de discursos incluída no app.js. Para temas personalizados, cadastre primeiro o tema na seção “Personalizar temas”.
+- Não alterei as tabelas do Supabase, para evitar mudanças destrutivas nos dados existentes.
+
+PUBLICAÇÃO NO GITHUB PAGES:
+1. Baixe/extraia este ZIP.
+2. No repositório do GitHub, substitua index.html e app.js pelos arquivos desta versão.
+3. Mantenha a pasta assets e a imagem convite-modelo-base.png.
+4. Faça commit das alterações e aguarde a publicação do GitHub Pages.
+5. Abra o site e teste login, cadastro, geração do convite e visualização no celular.
+
+Faça uma cópia de segurança dos arquivos atuais antes de substituir.
